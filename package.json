@@ -1,0 +1,39 @@
+{
+  "name": "voidroleplay-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --loader ts-node/esm src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "discord.js": "^14.15.3",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.6.5",
+    "nodemailer": "^6.9.7",
+    "reflect-metadata": "^0.2.2",
+    "sequelize": "^6.35.1",
+    "ts-node": "^10.9.1",
+    "ts3-nodejs-library": "^3.5.1",
+    "tsyringe": "^4.10.0"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/express-session": "^1.17.10",
+    "@types/jsonwebtoken": "^9.0.5",
+    "@types/node": "^22.2.0",
+    "@types/nodemailer": "^6.4.14",
+    "typescript": "^5.5.4"
+  }
+}
